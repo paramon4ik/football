@@ -1,0 +1,149 @@
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #8dc63f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.logo,
+.logo p,
+.logo span {
+    float: left;
+}
+
+.logo p,
+.contact p {
+    color: #39930d;
+    font-size: 22px;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+}
+
+.logo i,
+.contact i {
+    display: block;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.logo span{
+    position: relative;
+    margin-left: 35px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    position: absolute;
+    filter: drop-shadow(5px 10px 10px rgba(0,0,0,0.7));
+    transition: all 0.5s ease;
+    user-select: none;
+}
+.logo span:hover img {
+    padding-left: 350px;
+    width: 190px;
+    transform: rotate(360deg);
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,0.4));
+}
+.contact {
+    float: right;
+}
+
+.contact a {
+    color: #39930d;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #5a5a5a;
+}
+
+.main {
+    padding-bottom: 45px;
+}
+
+.content {
+    float: left;
+    max-width: 600px;
+}
+
+.content h1 {
+    color: #39930d;
+    font-size: 24px;
+}
+
+.content p {
+    color: #343434;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.image {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    width: 300px;
+}
+
+.menu p {
+    padding: 15px 20px 10px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #39930d;
+}
+
+.menu ul {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.menu a {
+    color: #39930d;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    padding-left: 20px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.copy {
+    margin: 0 -15px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39930d;
+}
+.copy p {
+    margin: 0;
+}
