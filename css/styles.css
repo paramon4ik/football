@@ -83,6 +83,10 @@ body {
     color: #5a5a5a;
 }
 
+.contact i {
+    text-align: right;
+}
+
 .main {
     padding-bottom: 45px;
 }
