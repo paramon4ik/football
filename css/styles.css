@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 960px;
-    background-color: #fff;
+    background-color: #ccc;
     box-sizing: border-box;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .contact a:hover {
-    color: #5a5a5a;
+    color: #aaa;
 }
 
 .contact i {
